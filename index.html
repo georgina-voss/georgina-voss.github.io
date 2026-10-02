@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Tech Project Manager & Agile Trainer</title>
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: #151d30;
+            --text-color: #f3f4f6;
+            --text-muted: #9ca3af;
+            --accent-color: #00f2fe;
+            --accent-gradient: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+
+        .container {
+            max-width: 1050px;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 40px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+        }
+
+        .logo span {
+            color: var(--accent-color);
+        }
+
+        .badge {
+            background: rgba(0, 242, 254, 0.1);
+            color: var(--accent-color);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border: 1px solid rgba(0, 242, 254, 0.2);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        @media (max-width: 768px) {
+            .hero { grid-template-columns: 1fr; padding: 40px 0; }
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        h1 span {
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--accent-gradient);
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .video-box {
+            background: var(--card-bg);
+            border-radius: 12px;
+            aspect-ratio: 16/9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* T-Shaped Section */
+        .section-title {
+            font-size: 1.8rem;
+            margin: 60px 0 30px 0;
+            text-align: center;
+        }
+
+        .t-profile {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.03);
+        }
+
+        .card h3 {
+            color: var(--accent-color);
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* Case Studies */
+        .cases {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .case-card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .case-tags {
+            margin-top: 15px;
+        }
+
+        .tag {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-right: 8px;
+            color: var(--text-muted);
+        }
+
+        /* Footer Banner */
+        footer {
+            margin-top: 80px;
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <div class="logo">PORTFOLIO<span>.</span></div>
+            <div class="badge">Status: Scrum Certification Q4</div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div>
+                <h1>Der Analytiker des <span>Physikers</span> trifft die Didaktik-DNA des <span>Pädagogen</span>.</h1>
+                <p>Als Allrounderin mit Spezialgebieten schließe ich die Lücke zwischen technischer Komplexität (FTTH-Projektplanung) und klarer Stakeholder-Kommunikation in der freien Wirtschaft.</p>
+                <!-- WICHTIG: Ersetzen Sie HIER das '#' durch Ihren echten LinkedIn-Link -->
+                <a href="https://www.linkedin.com/in/georginavoss/" target="_blank" class="btn">Direkt über LinkedIn kontaktieren</a>
+            </div>
+            <div class="video-box">
+                <div style="color: var(--text-muted); text-align: center; padding: 20px;">
+                    <strong>[Hier Ihr 60-Sekunden-Vorstellungsvideo einbetten]</strong><br>
+                    <span style="font-size: 0.85rem;">Einfach per iframe-Code von YouTube oder Vimeo einfügen.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- T-Shaped Section -->
+        <h2 class="section-title">Das T-Shaped Profil: Breite Basis & Tiefe Expertise</h2>
+        <section class="t-profile">
+            <div class="card">
+                <h3>Physik & Analytik</h3>
+                <p>Zwei Masterabschlüsse. Komplexe Systeme schnell durchdringen, mathematische Präzision und datengetriebene Lösungsansätze für die Infrastruktur.</p>
+            </div>
+            <div class="card">
+                <h3>Didaktik & Training</h3>
+                <p>Erfahrung im bildungswissenschaftlichen Sektor. Komplexe IT- oder Netzinhalte empfängergerecht für Teams, Kunden und Stakeholder aufbereiten.</p>
+            </div>
+            <div class="card">
+                <h3>Öffentlicher Sektor</h3>
+                <p>Tiefes Verständnis für regulatorische Prozesse, behördliche Strukturen und die Zusammenarbeit an den Schnittstellen von Staat und Wirtschaft.</p>
+            </div>
+            <div class="card">
+                <h3>FTTH & Agile Rollout</h3>
+                <p>Erfahrung in der Breitband-Projektplanung. Verbindung von klassischem technischem Rollout mit modernen, agilen Projektmethoden.</p>
+            </div>
+        </section>
+
+        <!-- Case Studies -->
+        <h2 class="section-title">Projekt-Fokus (Case Studies)</h2>
+        <section class="cases">
+            <div class="case-card">
+                <h3>Projektplanung im FTTH- & Breitbandausbau</h3>
+                <p style="margin-top: 10px; color: var(--text-muted);">Analytische Strukturierung von Netzausbauprojekten. Koordination zwischen technischen Anforderungen, wirtschaftlichen Zielen und behördlichen Genehmigungsprozessen. Erfolgreiche Vermittlung komplexer Projektstände an nicht-technische Entscheider.</p>
+                <div class="case-tags">
+                    <span class="tag">FTTH</span>
+                    <span class="tag">Infrastruktur</span>
+                    <span class="tag">Projektmanagement</span>
+                    <span class="tag">Stakeholder-Management</span>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <!-- WICHTIG: Ersetzen Sie [Ihr Name] durch Ihren echten Namen -->
+            <p>&copy; 2026 | Georgina Voß | Technische Projektmanagerin & Trainerin. Gehostet auf GitHub Pages.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
