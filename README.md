@@ -1,5 +1,7 @@
 # georgina-voss.github.io
 
+![Project Status: Prototype](https://shields.io)
+
 # High-Speed Portfolio: Technische Netzmodellierung & Agile Governance
 
 Dieses Repository enthält den Quellcode für mein persönliches, hochoptimiertes Web-Portfolio. Als **T-Shaped Allrounder** an der Schnittstelle von theoretischer Physik, digitaler Infrastruktur (FTTH-Projektplanung) und Didaktik dient diese Seite als interaktive Arbeitsprobe für technologiegetriebene Unternehmen.
