@@ -94,7 +94,7 @@ Die zeitliche und strategische Steuerung des Prototypen erfolgt entlang einer kl
 ### 📊 Dynamisches Tracking & Governance
 Jeder dieser Meilensteine ist im Hintergrund direkt mit unserem agilen Release-Zyklus verknüpft. Den aktuellen prozentualen Fertigstellungsgrad sowie die zugewiesenen Tickets können Sie jederzeit live in unserem Projektmanagement-Dashboard einsehen:
 
-👉 **[Live-Status der GitHub Milestones anzeigen](./milestones)**
+👉 **[Live-Status der GitHub Milestones anzeigen](https://github.com/georgina-voss/georgina-voss.github.io/milestones)**
 
 ## 🚀 Technische Highlights & Architektur
 
