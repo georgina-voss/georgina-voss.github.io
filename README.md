@@ -91,7 +91,10 @@ Die vollständige Klassifizierung nach Eintrittswahrscheinlichkeit und Auswirkun
 
 Die zeitliche und strategische Steuerung des Prototypen erfolgt entlang einer klar definierten Roadmap. Der aktuelle Fortschritt der einzelnen Phasen wird dynamisch über die integrierten **GitHub Milestones** getrackt.
 
+### 📊 Dynamisches Tracking & Governance
+Jeder dieser Meilensteine ist im Hintergrund direkt mit unserem agilen Release-Zyklus verknüpft. Den aktuellen prozentualen Fertigstellungsgrad sowie die zugewiesenen Tickets können Sie jederzeit live in unserem Projektmanagement-Dashboard einsehen:
 
+👉 **[Live-Status der GitHub Milestones anzeigen](./milestones)**
 
 ## 🚀 Technische Highlights & Architektur
 
