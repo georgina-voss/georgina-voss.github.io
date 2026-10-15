@@ -85,11 +85,12 @@ Die vollständige Klassifizierung nach Eintrittswahrscheinlichkeit und Auswirkun
 
 ---
 
-## 📈 Ausblick & Nächste Meilensteine (Roadmap)
+---
 
-1.  [ ] **Milestone 1:** Integration eines automatisierten Feedback-Kanals für Nutzer (Issue #04)
-2.  [ ] **Milestone 2:** Implementierung erweiterter Analysetools zur Messung der Conversion-Rate
-3.  [ ] **Milestone 3:** Vorbereitung der Schnittstellen für eine tiefergehende LMS-Anbindung (Learning Management System)
+## 📈 Projekt-Roadmap & Meilensteinplanung
+
+Die zeitliche und strategische Steuerung des Prototypen erfolgt entlang einer klar definierten Roadmap. Der aktuelle Fortschritt der einzelnen Phasen wird dynamisch über die integrierten **GitHub Milestones** getrackt.
+
 
 
 ## 🚀 Technische Highlights & Architektur
