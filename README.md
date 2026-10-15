@@ -63,15 +63,17 @@ Um Reibungsverluste im Projektverlauf zu minimieren, werden die Stakeholder entl
 *   **Management & Investoren (Freie Wirtschaft):** Fokus auf Effizienz, Conversion-Rate der Landing Page, Time-to-Market und die langfristige Wertschöpfung (ROI) des Projekts.
 
 
+---
+
 ## 🛠️ Risikomanagement & Qualitätssicherung (QA)
 
-Um die Systemstabilität und eine hohe Dwell Time (Verweildauer) der Nutzer zu garantieren, wurden im Projektverlauf folgende Qualitätssicherungs-Maßnahmen implementiert:
+Um die Systemstabilität, Datenintegrität und eine hohe Barrierefreiheit für die Zielgruppen zu garantieren, wurde für diesen Prototypen ein proaktives Risikomanagement implementiert. 
 
-| Identifiziertes Risiko | Auswirkung | Präventivmaßnahme / Lösung | Status |
-| :--- | :--- | :--- | :--- |
-| Mangelhafte Datenqualität im Input | Hohe Absprungrate | Striktes Input-Validierungs-Framework im Code | ✅ Gelöst |
-| Fehlende Barrierefreiheit (A11y) | Ausschluss von Zielgruppen | Umsetzung nach WCAG-Richtlinien (semantisches HTML) | ✅ Integriert |
-| Performance-Einbrüche mobil | Schlechte User Experience | Optimierung der Assets, Lazy Loading für Bildmedien | ✅ Überwacht |
+Die vollständige Klassifizierung nach Eintrittswahrscheinlichkeit und Auswirkung sowie die verknüpften agilen Gegenmaßnahmen finden Sie in unserer dedizierten Risikomatrix:
+
+👉 **[Vollständige PM-Risikomatrix anzeigen (RISK_MANAGEMENT.md)](./RISK_MANAGEMENT.md)**
+
+*Jedes identifizierte Risiko ist im Dokument direkt mit den entsprechenden agilen GitHub Issues auf unserem Kanban-Board verknüpft, um eine lückenlose Governance sicherzustellen.*
 
 ---
 
